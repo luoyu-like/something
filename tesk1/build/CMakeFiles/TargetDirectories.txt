@@ -1,0 +1,3 @@
+/media/yuluo/leaning/linux-cpp-my-project/tesk1/build/CMakeFiles/test1.dir
+/media/yuluo/leaning/linux-cpp-my-project/tesk1/build/CMakeFiles/edit_cache.dir
+/media/yuluo/leaning/linux-cpp-my-project/tesk1/build/CMakeFiles/rebuild_cache.dir
