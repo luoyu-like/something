@@ -1,0 +1,15 @@
+make_minimum_required(VERSION 3.31.6)
+project(YamlDynamicManager)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUTRED ON)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(YAML_CPP REQUIRED yaml-cpp)
+include_directories(${YAML_CPP_INCLUDE_DIRS})
+add_executable(yaml_manager_demo)
+    main.cpp
+    yaml_manager.cpp
+target_link_libraries(your_target${YAML_CPP_LIBRARIES})
+target_compile_options(yaml_manager_demo [RIVATE ${YAML_CPP_CFLAGS_OTHER})
+find_package(Threads REQUIRED)
+target_link_libraries(yaml_manager_demo Threads::Threads)
+

@@ -1,0 +1,25 @@
+app:
+  name:"DyamicConfigApp"
+  version:"2.1.0"
+  debug:true
+  log_level:"debug"
+  max_connections:1500
+network:
+  host:"192.168.1.100"
+  port:9090
+  timeout:60
+  enablE_ssl:true
+database:
+  learning_rate:0.01
+  batch_size:64
+  epochs:200
+  dropout_rate:0.3
+  data_augmentation:false
+direct:
+  learning_rate:0.01
+  batch_size:64
+  epochs:200
+  dropout_rate:0.3
+  data_augmentation:false
+direct:
+  value:"Hell from YAML!"
