@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (-) JobUnselected: {'identifier': 'smart_light'}
+[0.000542] (-) EventReactorShutdown: {}

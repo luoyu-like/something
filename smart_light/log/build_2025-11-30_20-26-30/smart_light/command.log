@@ -1,0 +1,2 @@
+Invoking command in '/home/luo/smart_light/build/smart_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light
+Invoked command in '/home/luo/smart_light/build/smart_light' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light

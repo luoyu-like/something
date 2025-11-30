@@ -1,0 +1,53 @@
+[0.055s] Invoking command in '/home/luo/smart_light/build/smart_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.296s] -- Detecting C compiler ABI info
+[0.386s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.397s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.496s] -- Detecting CXX compile features
+[0.497s] -- Detecting CXX compile features - done
+[0.498s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.651s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.716s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.747s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.750s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.755s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.803s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.888s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.927s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.970s] -- Looking for pthread.h
+[1.049s] -- Looking for pthread.h - found
+[1.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.137s] -- Found Threads: TRUE  
+[1.174s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.184s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.215s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.215s]   By not providing "Findrosidl_degault_generators.cmake" in CMAKE_MODULE_PATH
+[1.215s]   this project has asked CMake to find a package configuration file provided
+[1.215s]   by "rosidl_degault_generators", but CMake did not find one.
+[1.215s] 
+[1.215s]   Could not find a package configuration file provided by
+[1.215s]   "rosidl_degault_generators" with any of the following names:
+[1.215s] 
+[1.215s]     rosidl_degault_generatorsConfig.cmake
+[1.215s]     rosidl_degault_generators-config.cmake
+[1.215s] 
+[1.215s]   Add the installation prefix of "rosidl_degault_generators" to
+[1.215s]   CMAKE_PREFIX_PATH or set "rosidl_degault_generators_DIR" to a directory
+[1.215s]   containing one of the above files.  If "rosidl_degault_generators" provides
+[1.215s]   a separate development package or SDK, be sure it has been installed.
+[1.215s] 
+[1.215s] [0m
+[1.215s] -- Configuring incomplete, errors occurred!
+[1.215s] See also "/home/luo/smart_light/build/smart_light/CMakeFiles/CMakeOutput.log".
+[1.221s] Invoked command in '/home/luo/smart_light/build/smart_light' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light

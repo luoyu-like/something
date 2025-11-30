@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.17)
+project(SMART_LIGHT)
+add_executable(ros2_cpp_node ros2_cpp_node.cpp)
+find_package(rclcpp REQUIRED)
+target_include_directories(ros2_cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS})
+target_link_libraries(ros2_cpp_node ${rclcpp_LIBRARIES})
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+    "action/GradualBrightness.action"
+    DEPENDENCIES buildtin_interfaces)

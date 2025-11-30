@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/luo/smart_light/build/smart_light': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light
+[0.017s] [31mCMake Error at CMakeLists.txt:5:
+[0.018s]   Parse error.  Expected "(", got newline with text "
+[0.018s] 
+[0.018s]   ".
+[0.018s] 
+[0.018s] [0m
+[0.018s] -- Configuring incomplete, errors occurred!
+[0.018s] See also "/home/luo/smart_light/build/smart_light/CMakeFiles/CMakeOutput.log".
+[0.021s] Invoked command in '/home/luo/smart_light/build/smart_light' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luo/smart_light -DCMAKE_INSTALL_PREFIX=/home/luo/smart_light/install/smart_light
